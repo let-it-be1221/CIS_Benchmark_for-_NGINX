@@ -1,0 +1,14 @@
+# CIS Benchmark Scanner CLI — Python dependencies
+# Install with: pip install -r requirements.txt
+# (or: pip install reportlab jinja2)
+
+reportlab>=4.0      # PDF report generation
+jinja2>=3.0         # HTML report templating
+
+# Note: pdf parsing uses the system `pdftotext` binary (poppler-utils), not a Python package.
+# Install poppler-utils separately:
+#   macOS:  brew install poppler
+#   Ubuntu: sudo apt-get install -y poppler-utils
+#   Fedora: sudo dnf install -y poppler-utils
+#   Windows (scoop): scoop install poppler
+#   Windows (choco): choco install poppler
